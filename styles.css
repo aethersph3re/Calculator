@@ -1,0 +1,58 @@
+html {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient( to left bottom, blue, red);
+}
+
+h1{
+    text-align: center;
+}
+
+
+.button:hover {
+    background: linear-gradient( to right top, blue, red);
+  }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 150px 150px 150px 150px;
+    grid-template-rows: 70px 70px 70px 70px 70px;
+    background-color: rgba(245, 245, 245, 0.5);
+    padding: 50px;
+    justify-content: center;
+  }
+
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .grid-plus {
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    height: 140px;
+    width: 150px;
+    font-size: 30px;
+    text-align: center;
+    }
+
+  .grid-enter {
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    height: 140px;
+    width: 150px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.outputBox {
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 50px;
+  justify-content: center;
+}
