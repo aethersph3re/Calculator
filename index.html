@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<h1>Calculator</h1>
+
+<body>
+    
+    <div id="output" class="outputBox"></div>
+        
+    <div class="grid-container">
+        <button class="grid-item button" onclick=allClear()>AC</button>
+        <button class="grid-item button" value = "/" onclick=storeValue(value)>/</button>
+        <button class="grid-item button" value = "*" onclick=storeValue(value)>*</button>
+        <button class="grid-item button" value = "-" onclick=storeValue(value)>-</button>
+        <button class="grid-item button" onclick=storeValue(7)>7</button>
+        <button class="grid-item button" onclick=storeValue(8)>8</button>
+        <button class="grid-item button" onclick=storeValue(9)>9</button>
+        <button class="grid-plus button" value = "+" onclick=storeValue(value)>+</button>
+        <button class="grid-item button" onclick=storeValue(4)>4</button>
+        <button class="grid-item button" onclick=storeValue(5)>5</button>
+        <button class="grid-item button" onclick=storeValue(6)>6</button><br>
+        <button class="grid-item button" onclick=storeValue(1)>1</button>
+        <button class="grid-item button" onclick=storeValue(2)>2</button>
+        <button class="grid-item button" onclick=storeValue(3)>3</button>
+        <button class="grid-enter button" onclick=calculate()>Enter</button>
+        <button class="grid-item button" onclick=storeValue(0)>0</button>
+        <button class="grid-item button" value = "." onclick=storeValue(value)>.</button>
+        <button class="grid-item button" value = "%" onclick=storeValue(value)>%</button>
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
